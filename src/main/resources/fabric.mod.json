@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "narratordisabler",
+  "version": "${version}",
+  "name": "NarratorDisabler",
+  "description": "A Simple Mod to Disable the Strg + B Key",
+  "authors": [
+    "RusticPrism"
+  ],
+  "contact": {
+    "repo": "https://github.com/RusticPrism/NarratorDisabler"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/NarratorDisabler/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "de.rusticprism.narratordisabler.NarratorDisabler"
+    ]
+  },
+  "mixins": [
+    "NarratorDisabler.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
