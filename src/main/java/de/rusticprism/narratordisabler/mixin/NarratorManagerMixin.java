@@ -1,4 +1,4 @@
-package de.rusticprism.narratordisabler;
+package de.rusticprism.narratordisabler.mixin;
 
 import net.minecraft.client.util.NarratorManager;
 import org.spongepowered.asm.mixin.Mixin;
